@@ -175,6 +175,13 @@ p { margin: 0 0 1em; color: var(--charcoal); }
 .hero h1 { color: #fff; }
 .hero h1 span { color: #f2b6a4; }
 .hero-lead { color: #f2ece5; font-size: 1.1rem; max-width: 620px; }
+.hero-slogan {
+  color: #f2b6a4;
+  font-family: var(--font-head);
+  font-style: italic;
+  font-size: 1.05rem;
+  margin-top: 14px;
+}
 .hero-actions { display: flex; gap: 16px; margin-top: 28px; flex-wrap: wrap; }
 .hero .btn-outline { border-color: #fff; color: #fff; }
 .hero .btn-outline:hover { background: #fff; color: var(--ink); }
